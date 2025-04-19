@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTiktok, faInstagram, faYoutube, faAmazon } from "@fortawesome/free-brands-svg-icons";
+import { faTiktok, faInstagram, faYoutube, faAmazon, faPinterest } from "@fortawesome/free-brands-svg-icons";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { v4 as uuidv4 } from 'uuid';
 
@@ -33,6 +33,7 @@ const Home = () => {
             { name: 'TikTok', icon: faTiktok, href: 'tiktok.com/@piso.05' },
             { name: 'Youtube', icon: faYoutube, href: 'youtube.com/channel/UCeSsJSArms1joQmILAtemkg' },
             { name: 'Amazon', icon: faAmazon, href: 'amazon.com/shop/piso.05' },
+            { name: 'Pinterest', icon: faPinterest, href: 'amazon.com/shop/piso.05' },
             { name: 'Cafecito', icon: faCoffee, href: 'cafecito.app/piso05' },
         ]
     };
@@ -52,7 +53,7 @@ const Home = () => {
 
             <div className="flex flex-row justify-between text-xl z-10">
                 <Link to='/' className="uppercase text-2xl">Piso 05</Link>
-                <div className="grid grid-cols-5 gap-5">
+                <div className="flex flex-row gap-5">
                     {navigation.social.map((pages) => (
                         <a key={uuidv4()}
                             href={"https://" + pages.href}

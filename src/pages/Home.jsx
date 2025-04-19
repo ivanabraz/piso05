@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTiktok, faInstagram, faYoutube, faAmazon } from "@fortawesome/free-brands-svg-icons";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { v4 as uuidv4 } from 'uuid';
-import MediaFigures from "../components/MediaFigures/MediaFigures";
 
 const Home = () => {
     const currentYear = new Date().getFullYear();

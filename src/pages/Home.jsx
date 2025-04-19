@@ -33,7 +33,7 @@ const Home = () => {
             { name: 'TikTok', icon: faTiktok, href: 'tiktok.com/@piso.05' },
             { name: 'Youtube', icon: faYoutube, href: 'youtube.com/channel/UCeSsJSArms1joQmILAtemkg' },
             { name: 'Amazon', icon: faAmazon, href: 'amazon.com/shop/piso.05' },
-            { name: 'Pinterest', icon: faPinterest, href: 'amazon.com/shop/piso.05' },
+            { name: 'Pinterest', icon: faPinterest, href: 'ar.pinterest.com/piso_05' },
             { name: 'Cafecito', icon: faCoffee, href: 'cafecito.app/piso05' },
         ]
     };

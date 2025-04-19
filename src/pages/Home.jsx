@@ -74,7 +74,6 @@ const Home = () => {
                 <div className="text-right mt-auto">© {currentYear}</div>
             </div>
         </div>
-        <MediaFigures/>
         </>
     );
 }
